@@ -1,13 +1,19 @@
 {
   "name": "jestTdd",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ."
+  },
   "devDependencies": {
     "jest": "^25.1.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
   }
 }
